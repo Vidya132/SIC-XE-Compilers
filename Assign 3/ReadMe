@@ -1,0 +1,28 @@
+Assignment - 03
+Group 6
+Group Members 
+B.Srividya   200101026
+J.Niharika   200101046
+Y.Suma Shree 200101114
+
+    Required files:
+        A3_6.l
+        A3_6.c (contains main() function)
+        Makefile
+        A3_6.nc (or any file written according to nanoC lexical grammar)
+
+    Input commands:
+        make clean
+        make (compiles the c file containing the main() function)
+        make test (runs the a.out executable file)
+
+    Intermediate files generated:
+        lex.yy.c (A3_6.l compiled)
+        a.out (lex.yy.c compiled)    
+    
+    Output file:
+        output.txt
+
+    Output format:
+        All tokens of a line in the A3_6.nc file, triplet  of every token class are printed onto a line in output.txt.
+

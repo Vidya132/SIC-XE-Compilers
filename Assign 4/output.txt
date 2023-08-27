@@ -1,0 +1,786 @@
+
+*****************LINE 1****************
+
+type-specifier-> int
+
+direct-declarator-> identifier
+
+declarator-> pointer-opt direct-declarator
+
+*****************LINE 2****************
+
+type-specifier-> int
+
+direct-declarator-> identifier
+
+declarator-> pointer-opt direct-declarator
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+initializer-> assignment-expression
+
+init-declarator-> declarator=initializer
+
+declaration-> type-specifier init-declaration
+
+block-item-> declaration
+
+block-item-list-> block-item
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 3****************
+
+type-specifier-> int
+
+direct-declarator-> identifier
+
+declarator-> pointer-opt direct-declarator
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+initializer-> assignment-expression
+
+init-declarator-> declarator=initializer
+
+declaration-> type-specifier init-declaration
+
+block-item-> declaration
+
+block-item-list-> block-item-list block-item
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 4****************
+
+type-specifier-> int
+
+direct-declarator-> identifier
+
+declarator-> pointer-opt direct-declarator
+
+init-declarator-> declarator
+
+declaration-> type-specifier init-declaration
+
+block-item-> declaration
+
+block-item-list-> block-item-list block-item
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 5****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> additive-expression - multiplicative-expression
+
+relational-expression-> additive-expression
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> relational-expression > additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+conditional-expression-> logical-OR-expression ? expression : conditional-expression
+
+assignment-expression-> conditional-expression
+
+assignment-expression-> unary-expression = assignment-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 6****************
+
+type-specifier-> int
+
+direct-declarator-> identifier
+
+declarator-> pointer-opt direct-declarator
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+initializer-> assignment-expression
+
+init-declarator-> declarator=initializer
+
+declaration-> type-specifier init-declaration
+
+block-item-> declaration
+
+block-item-list-> block-item-list block-item
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 7****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+assignment-expression-> unary-expression = assignment-expression
+
+expression-> assignment-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> relational-expression < additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> additive-expression + multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+assignment-expression-> unary-expression = assignment-expression
+
+expression-> assignment-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+assignment-expression-> unary-expression = assignment-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+iteration-statement->for(expression-opt;expression-opt;expression-opt) statement
+
+statement-> iteration-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 8****************
+
+*****************LINE 9****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+argument-expression-list-> assignment-expression
+
+postfix-expression-> postfix-expression(argument-expression-list-opt)
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 10****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+primary_expression-> String Literal
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+argument-expression-list-> assignment-expression
+
+postfix-expression-> postfix-expression(argument-expression-list-opt)
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 11****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+argument-expression-list-> assignment-expression
+
+postfix-expression-> postfix-expression(argument-expression-list-opt)
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 12****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+primary_expression-> String Literal
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+argument-expression-list-> assignment-expression
+
+postfix-expression-> postfix-expression(argument-expression-list-opt)
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 13****************
+
+primary-expression-> Identifier
+
+postfix-expression-> primary-expression
+
+primary_expression-> String Literal
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+argument-expression-list-> assignment-expression
+
+postfix-expression-> postfix-expression(argument-expression-list-opt)
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+expression-statement-> expression-opt
+
+statement-> expression-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 14****************
+
+primary_expression-> Integer constant
+
+postfix-expression-> primary-expression
+
+unary-expression-> postfix-expression
+
+multiplicative-expression-> unary-expression
+
+additive-expression-> multiplicative-expression
+
+relational-expression-> additive-expression
+
+equality-expression-> relational-expression
+
+logical-AND-expression-> equality-expression
+
+logical-OR-expression->logical-AND-expression
+
+conditional-expression->logical-OR-expression
+
+assignment-expression-> conditional-expression
+
+expression-> assignment-expression
+
+jump-statement-> return expression-opt;
+
+statement-> Sjump-statement
+
+block-item-> statement
+
+block-item-list-> block-item-list block-item
+
+*****************LINE 15****************
+
+compound-statement-> {block-item-list-opt}
+
+function-definition-> type-specifier declarartor declaration-list-opt compound-statement
+
+external-declaration-> function-definition
+
+translational-unit-> external-declaration

@@ -1,0 +1,29 @@
+Assignment - 04
+Group 6
+Group Members 
+B.Srividya   200101026
+J.Niharika   200101046
+Y.Suma Shree 200101114
+
+    Required files:
+        A3_6.l
+        A3_6.y
+        A3_6.c (contains main() function)
+        Makefile
+        A3_6.nc (test file)
+
+    Input commands:
+        make clean
+        make (compiles the c file containing the main() function)
+        make test (runs the a.out executable file)
+
+    Intermediate files generated:
+        A4_6.tab.c
+        A4_6.tab.h
+        lex.yy.c
+        A4_6.output
+        
+    Output file:
+        output.txt
+
+        
